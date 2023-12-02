@@ -1,13 +1,4 @@
-import {
-  eachDayOfInterval,
-  eachWeekOfInterval,
-  getWeek,
-  getYear,
-  parse,
-} from 'date-fns';
-import fsp from 'node:fs/promises';
-import path from 'node:path';
-import objectHash from 'object-hash';
+import { eachWeekOfInterval, getWeek, getYear } from 'date-fns';
 
 const BaseUrl = 'https://web.skola24.se/api/';
 
