@@ -1,0 +1,17 @@
+{
+  "name": "skola-24-ical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "dev": "node --watch src/index.mjs"
+  },
+  "keywords": [],
+  "author": "Gustav Ahlberg",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "ical-generator": "^6.0.0"
+  }
+}
